@@ -1,9 +1,46 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 50px;
+font-family: Arial, sans-serif;
+background-color: #f8f4ff;
+margin: 0;
+padding: 0;
+}
+
+.container {
+max-width: 800px;
+margin: 60px auto;
+background: white;
+padding: 40px;
+border-radius: 15px;
+box-shadow: 0 0 15px rgba(0,0,0,0.1);
+text-align: center;
 }
 
 h1 {
-    color: blue;
+color: #6a0dad;
 }
+
+h2 {
+color: #7b2cbf;
+margin-top: 30px;
+}
+
+.destaque {
+font-size: 18px;
+color: #555;
+}
+
+ul {
+list-style: none;
+padding: 0;
+}
+
+li {
+padding: 8px;
+}
+
+.assinatura {
+margin-top: 30px;
+font-weight: bold;
+color: #6a0dad;
+}
+
