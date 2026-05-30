@@ -1,46 +1,69 @@
 body {
 font-family: Arial, sans-serif;
-background-color: #f8f4ff;
+background: #f4f6f9;
 margin: 0;
 padding: 0;
 }
 
 .container {
-max-width: 800px;
-margin: 60px auto;
+max-width: 900px;
+margin: 50px auto;
 background: white;
 padding: 40px;
-border-radius: 15px;
-box-shadow: 0 0 15px rgba(0,0,0,0.1);
-text-align: center;
+border-radius: 12px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 h1 {
-color: #6a0dad;
+text-align: center;
+color: #1f4e79;
 }
 
 h2 {
-color: #7b2cbf;
+color: #2f75b5;
 margin-top: 30px;
 }
 
-.destaque {
-font-size: 18px;
-color: #555;
+p {
+line-height: 1.6;
 }
 
-ul {
-list-style: none;
-padding: 0;
+form {
+margin-top: 20px;
 }
 
-li {
-padding: 8px;
+input {
+width: 70%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 6px;
+}
+
+button {
+padding: 10px 20px;
+background: #1f4e79;
+color: white;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+}
+
+button:hover {
+opacity: 0.9;
+}
+
+.mensagem {
+margin-top: 20px;
+padding: 12px;
+background: #e8f4ea;
+border-left: 5px solid #28a745;
 }
 
 .assinatura {
 margin-top: 30px;
+text-align: center;
 font-weight: bold;
-color: #6a0dad;
 }
+
+
 
